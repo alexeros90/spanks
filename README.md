@@ -44,7 +44,7 @@ Unlike conventional smoothing filters, SPANKS attempts to distinguish between si
 
 Suppress background-dominated samples in a one-dimensional profile or spectrum.
 
-### Example
+### Execution example
 
 ```python
 from spanks import suppress_noise1d
@@ -55,13 +55,16 @@ clean_spectrum = suppress_noise1d(
 )
 ```
 
+### Output examples
+
+![Example on synthetic spectrum](docs/images/spectrum_example.png)
 ---
 
 ## `suppress_noise2d`
 
 Suppress background-dominated pixels in a two-dimensional image.
 
-### Example
+### Execution example
 
 ```python
 from spanks import suppress_noise2d
@@ -71,6 +74,10 @@ clean_image = suppress_noise2d(
     method="simple"
 )
 ```
+### Output examples
+
+![Example on synthetic spectrum](docs/images/image_example.png)
+---
 
 ## License
 
