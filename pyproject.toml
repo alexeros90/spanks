@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "spanks"
+version = "0.1.0"
+authors = [
+  { name="Alejandro Erostegui", email="alexeros90@gmail.com" },
+]
+
+description = "SPectrAl Noise Killer Script - SPANKS: Noise suppression tools for 1D and 2D data"
+license = {file = "LICENSE"}
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "numpy",
+    "scipy",
+    "astropy",
+    "matplotlib"
+]
+
+[project.urls]
+Homepage = "https://github.com/alexeros90/spanks"
+Repository = "https://github.com/alexeros90/spanks"
+Issues = "https://github.com/alexeros90/spanks/issues"
+
+[tool.setuptools.packages.find]
+where = ["src"]

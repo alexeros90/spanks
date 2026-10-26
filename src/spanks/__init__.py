@@ -1,0 +1,2 @@
+from .noise_suppressor1D import suppress_noise1d
+from .noise_suppressor2D import suppress_noise2d
