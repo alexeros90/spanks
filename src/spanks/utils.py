@@ -1,20 +1,19 @@
 import numpy as np
 
-def smoothen_data(level = 1, data = None):
+def smoothen_data(data = None, level = 1):
     """
     Iteratively smooth a one-dimensional dataset by averaging adjacent
     samples.
 
     Parameters
     ----------
+    data : ndarray
+        Coordinate values of the dataset.
+
     level : int, optional
         Number of smoothing iterations to perform. Higher values produce
         progressively smoother curves at the expense of resolution.
         Default is ``1``.
-
-    data : ndarray
-        Coordinate values of the dataset.
-
     Returns
     -------
     smooth_data : ndarray

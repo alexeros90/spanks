@@ -15,6 +15,10 @@ The package was originally designed for astronomical applications, but it can be
   - `simple`
   - `logit`
   - `layers`
+- Neighbor based probability enhancement:
+  - `mean`
+  - `product`
+  - `heavy`
 - Support for both positive-only and symmetric signal distributions
 - Preservation of significant peaks, emission lines, absorption lines, and image structures
 - Fully NumPy-based workflow
@@ -57,7 +61,7 @@ clean_spectrum = suppress_noise1d(
 
 ### Output examples
 
-![Example on synthetic spectrum](docs/images/spectrum_example.png)
+![Example on synthetic spectrum](https://raw.githubusercontent.com/alexeros90/spanks/master/docs/images/spectrum_example.png)
 ---
 
 ## `suppress_noise2d`
@@ -76,7 +80,7 @@ clean_image = suppress_noise2d(
 ```
 ### Output examples
 
-![Example on synthetic spectrum](docs/images/image_example.png)
+![Example on synthetic spectrum](https://raw.githubusercontent.com/alexeros90/spanks/master/docs/images/image_example.png)
 ---
 
 ## License
